@@ -7,7 +7,6 @@ body{
 .block{
    max-width: 400px;
    height: 225px;
-   border: 1px solid black;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
@@ -61,4 +60,7 @@ p{
 }
 .icon{
    z-index: 1;
+}
+.icon:active{
+   background: url('/img/icon_2.png');
 }
